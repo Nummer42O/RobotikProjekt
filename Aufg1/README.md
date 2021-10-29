@@ -159,6 +159,7 @@ Die Rule of Five umfasst 5 definitiv automatisch generierten Klassenmethoden:
 
 ```c++
 #include <stdlib.h>
+#include <utility>
 
 template<typename TYPE>
 class Test {
