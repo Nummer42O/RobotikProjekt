@@ -1,0 +1,5 @@
+.vscode/*
+build/*
+#VSC
+.vscode
+build
