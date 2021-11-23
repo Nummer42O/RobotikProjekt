@@ -248,6 +248,12 @@ int main(int argc, char* argv[]) {
                                 std::stoi(arg.substr(comma_pos + 1, arg.size() - comma_pos - 1))));
     }
 
+    if (lst.empty()) {
+        std::cerr << "Keine Punkte gegeben!" << std::endl;
+
+        return EXIT_FAILURE;
+    }
+
     std::cout << "bounding box:      " << getBBox(lst) << '\n'
               << "enclosing polygon: " << getMaxPolygon(lst) << std::endl;
 
