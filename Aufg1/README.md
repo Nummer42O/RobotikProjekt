@@ -186,7 +186,7 @@ public:
     }
 
     //move
-    Test(Test &&other) {
+    Test(Test<TYPE> &&other) {
         std::swap(ptr, other.ptr);
     }
     Test<TYPE> &operator=(Test<TYPE> &&other) {
