@@ -1,5 +1,7 @@
 # RobotikProjekt
 
-#### Gruppe (5. ROB):
+#### Gruppe Kamera:
  - Nico Z.
+ - Florian S.
+ - Tillman W.
  - Johannes K.
